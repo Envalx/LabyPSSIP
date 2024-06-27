@@ -1,0 +1,9 @@
+a:link {
+    color: blue; /* Цвет непосещенной ссылки */
+    text-decoration: none; /* Убрать подчеркивание */
+}
+
+a:visited {
+    color: red; /* Цвет посещенной ссылки */
+    text-decoration: none; /* Убрать подчеркивание */
+}

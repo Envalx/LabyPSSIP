@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стили</title>
+    <link rel="stylesheet" href="style.CSS">
+    <style>
+        /* импорт файла CSS */
+         @import url("style2.CSS"); 
+        body {
+            background-image: url('/1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30pt;
+            color: black;
+        }
+       
+    </style>
+</head>
+<body>
+    <p>Трахтеберг Арсений Александрович 
+    </p>
+    <h2 class="birthplace" >  Г.п. Красносельский 
+    </h2>
+    <h2>Любимые виды мороженого:</h2>
+    <ul style="list-style-type: square; padding-left: 20px;"> 
+        <li>"Топ"</li>
+        <li>"20 копеек"</li>
+        <li>"Шоколадное"</li>
+    </ul>
+   
+    <a href="http://ggpk.by/">Сайт колледжа</a>
+    <p>Этот файл будет иметь наивысший приоритет, так как он подключается первым. link rel="stylesheet" href="style.CSS"
+        </p>
+        <p>Этот файл будет иметь более низкий приоритет по сравнению с первым, так как он подключается внутри тега style после первого файла. 
+            style
+    @import url("style2.CSS");  
+            style
+    </p>
+</body>
+</html>
