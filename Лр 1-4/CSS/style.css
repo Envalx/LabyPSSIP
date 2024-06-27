@@ -1,0 +1,12 @@
+.image{
+    width: 150px;
+    height: 150px;
+}
+
+H1{
+    font-size: 14px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
