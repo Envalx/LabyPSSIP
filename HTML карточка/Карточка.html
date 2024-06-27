@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Трахтенберг Арсений Александрович</title>
+    <style>
+        body {
+            background-color: green; /* Задаем цвет фона */
+            font-family: Arial, sans-serif; /* Устанавливаем шрифт Arial */
+        font-size: 18px; /* Устанавливаем размер шрифта в пикселях */
+            }
+    </style>
+<style>
+    h1 {
+        text-align: right; /* Устанавливаем выравнивание по правому краю */
+    }
+</style>
+<style>
+    .red-crossed {
+        text-decoration: line-through; /* Устанавливаем перечеркивание */
+        color: red; /* Устанавливаем красный цвет текста */
+    }
+</style>
+<style>
+    .left {
+        text-align: left; /* Устанавливаем выравнивание по лвому краю */  
+    }
+</style>
+<style>
+    .centered-italic {
+        text-align: center; /* Устанавливаем выравнивание по центру */
+        font-style: italic; /* Устанавливаем стиль курсива */
+    }
+</style>
+<style>
+    /* Стиль для маркера */
+    ul {
+        list-style-type: none; /* Убираем стандартные маркеры */
+        padding-left: 0; /* Устанавливаем отступ слева для списка */
+    }
+    li::before {
+        content: "▇"; /* Устанавливаем квадратик в качестве маркера */
+        color: rgb(0, 0, 0); /* Задаем цвет маркера */
+        display: inline-block; /* Ставим в строчку, чтобы маркеры были выровнены с текстом */
+        width: 1em; /* Задаем ширину квадратика */
+        margin-right: 0.5em; /* Отступ между квадратиком и текстом */
+    }
+</style>
+<style>
+    .photo-container {
+        width: 300px; /* Устанавливаем ширину контейнера */
+        text-align: left; /* Устанавливаем выравнивание по левому краю */
+    }
+    .photo-container img {
+        width: 300px; /* Устанавливаем ширину изображения */
+        height: 300px; /* Устанавливаем высоту изображения */
+    }
+    .caption {
+        font-size: 16px; /* Устанавливаем размер шрифта подписи */
+        margin-top: 10px; /* Отступ сверху для подписи */
+    }
+</style>
+</head>
+<body>
+    <form  id="myForm">
+       
+        <input type="radio" name="1" value="Да" >Да 
+        <input type="radio" name="2" value="Нет"> Нет
+        </form>
+    <h1>Трахтенберг Арсений Александрович
+    </h1> 
+    <p><span class="red-crossed">ПЗТ-38</span> <span class="left">3ий курс</span></p>
+    </p>
+    <p class="centered-italic"> Люблю спорт и музыку
+     </p>
+    <ul>
+        <li>Колледж</li>
+        <li>Школа</li>
+        <li>Университет</li>
+    </ul>
+    <div class="photo-container">
+        <img src="image/Природа.jpeg" alt="Фотография" width="300" height="300">
+        <p class="caption">Фотография</p>
+    </div>
+    <p>Для скачивания файла нажмите на <a href="image/Природа.jpeg" download>эту ссылку</a>.</p>
+<table border="1" width="100" height="100" cellpadding="4" cellspacing="0">
+<caption>Таблица</caption>
+<tr>
+<th></th>
+<th></th>
+<td rowspan="2" colspan="3">Иванов</td>
+<th>Пример</th>
+</tr>
+<tr><th rowspan="2" colspan="2">Задача</th></tr>
+</table>
+<p><a href="#myForm">Перейти на форму </a>
+</p>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function showMinutes() {
+    var now = new Date();
+    var minutes = now.getMinutes();
+    alert("Текущее количество минут в часе: " + minutes);
+}
+</script>
+<button onclick="showMinutes()">Показать год</button>
+</head>
+<body>
+    <br>
+ <script>
+var lastName = "Трахтенберг"; 
+var firstName = "Арсений";  
+var times = 6 + 5;
+var count = 0;
+while (count < times) {
+    document.write(lastName + " " + firstName + "<br>");
+    count++;
+}
+</script> 
+<br>
+<div id="result"></div>
+<script src="script.js"></script>
+<br>
+<br>
+<script>
+var array = [3, -1, 7, -5, 0, 9, -2, 4, -6, 8];
+document.write("Исходный массив: " + array + "<br>");
+
+// Вывод отрицательных элементов
+document.write("Отрицательные элементы: ");
+for (var i = 0; i < array.length; i++) {
+    if (array[i] < 0) {
+        document.write(array[i] + " ");
+    }
+}
+document.write("<br>");
+
+// Сортировка массива
+array.sort(function(a, b) { return a - b; });
+document.write("Отсортированный массив: " + array + "<br>");
+</script>
+<br>
+<body>
+<script>
+var S1 = "Трахтенберг"; 
+var S2 = "Г.Гродно, ул.Новооктябрьская 14, комната 405"; 
+
+// Длина строки S1
+var lengthS1 = S1.length;
+document.write("Длина строки S1: " + lengthS1 + "<br>");
+
+// Сцепление строк S1 и S2
+var concatenated = S1 + " " + S2;
+document.write("Сцепленные строки: " + concatenated + "<br>");
+
+// Преобразование строки S2 в верхний регистр
+var upperS2 = S2.toUpperCase();
+document.write("Строка S2 в верхнем регистре: " + upperS2 + "<br>");
+</script>
+</body>
+</body>
+</html>
