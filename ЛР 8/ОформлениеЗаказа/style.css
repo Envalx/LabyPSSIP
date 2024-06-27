@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-style: "Open Sans", sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    margin: 50px 0 10px 0;
+    font-size: 25px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+p{
+    font-size: 20px;
+    font-weight: normal;
+}
+img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+    margin-right: 120px;
+}
+.red{
+    color: red;
+}
+.fir{
+    margin-top: 50px;
+}
+.container{
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.first{
+    display: grid;
+    grid-template-columns: 500px 1fr 1fr;
+    grid-template-rows: 50px 100px 100px 100px;
+    border: 2px dashed  gray;
+    padding: 20px;
+}
+.item{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.item:nth-last-child(-n + 3){
+    border-bottom: none;
+}
+input{
+    width: 100%;
+    height: 35px;   
+}
+input[text]{
+    height: 300px;
+}
+.footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+button{
+    width: 40%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: red;
+    border-color: white;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+textarea{
+    height: 200px;
+}
